@@ -2,7 +2,8 @@
 
 cd /var/www/html/sites/avatarable/avatarable
 
-#rm -rf avatar.png
+rm -rf avatar.png
+
 ./bin/govatar generate male -o avatar.png
 
 ./getittogether.sh
