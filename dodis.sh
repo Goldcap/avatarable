@@ -3,13 +3,13 @@
 cd /var/www/html/sites/avatarable/avatarable
 
 #rm -rf avatar.png
-#./bin/govatar generate male -o avatar.png
+./bin/govatar generate male -o avatar.png
 
-#./getittogether.sh
+./getittogether.sh
 
-echo "`fortune | cut -c1-200`" > saying.txt
-echo " Randomly generated every hour." >> saying.txt
+TXT="`fortune | cut -c1-110`"
+echo "$TXT... Randomly generated every hour." > saying.txt
 
-#python upload.py
+python upload.py
 
 exit 0
