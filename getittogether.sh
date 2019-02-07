@@ -6,7 +6,7 @@ rm -rf collage.png
 
 X=0
 
-while [ "$X" -lt 4 ] 
+while [ "$X" -lt 6 ] 
 do 
   ./bin/googliser -n 2 -o output -p "`fortune | cut -c1-200`" -u 250000 -l 10000 -f 0 -S
   rm -rf output/googliser*
