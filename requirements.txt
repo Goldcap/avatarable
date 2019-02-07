@@ -1,0 +1,4 @@
+python-twitter
+pillow
+python-dotenv
+pathlib
